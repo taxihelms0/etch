@@ -36,7 +36,6 @@ function drawGrid() {
   }
 }
 
-
 function resetGrid() { // TODO, call this on load
   const gridItems = document.querySelectorAll('.grid-item');
   gridItems.forEach((item) => {
